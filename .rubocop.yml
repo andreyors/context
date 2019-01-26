@@ -1,0 +1,47 @@
+---
+require:
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.4
+
+Metrics/BlockLength:
+  Exclude:
+    - "Gemfile"
+    - "spec/**/*"
+
+Metrics/LineLength:
+  Max: 120
+
+Style/BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
