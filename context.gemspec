@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "rack", "~> 2.0"
 
-  gem.add_development_dependency "bundler", "~> 1.16"
+  gem.add_development_dependency "bundler", "~> 2.1"
   gem.add_development_dependency "pry", "~> 0.10"
   gem.add_development_dependency "rake", "~> 13.0"
   gem.add_development_dependency "rspec", "~> 3.0"
