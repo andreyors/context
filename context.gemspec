@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
     f.match(%r{^(test|spec|features)/})
   end
 
-  gem.add_dependency "rack", "~> 2.0"
+  gem.add_dependency "rack", ">= 2", "< 4"
 
   gem.add_development_dependency "bundler", "~> 2.1"
   gem.add_development_dependency "pry", "~> 0.10"
